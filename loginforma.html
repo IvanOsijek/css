@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="loginforma.css">
+</head>
+<body>
+    <main>
+        <h2>Login Forma</h2>
+        <form action="post">
+           <div class="slika" > <img class="avatar" src="avatar.png" alt="profilna">
+           </div>
+           <div  class="container"> 
+           <label class="bold" for="username">Korisničko ime</label>
+           <input type="text" name="username" placeholder="Unesite korisničko ime" required>
+
+           <label class="bold" for="password">Lozinka</label>
+           <input type="password" name="password" placeholder="Unesite lozinku" required>
+
+           <button class="submit" type="submit">Login</button>
+           <label for="zapamti">
+           <input type="checkbox" checked name="zapamti">
+           Zapamti me
+            </label>
+          </div>
+          <div class="container" style="background-color: #f1f1f1;"> 
+              <button type="button" class="odustani">Odustani</button>
+              <span>Zaboravljena <a href="#">lozinka?</a></span>
+          </div>
+        </form>
+    </main>
+</body>
+</html>
